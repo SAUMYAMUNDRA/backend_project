@@ -2,10 +2,14 @@
   "name": "megaproject",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "javascript , project"
+    "dev": "nodemon src/index.js"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
